@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae of Keenan Eriss</title>
+
+    <!--Link to external CSS-->
+    <link rel="stylesheet" href="styles1.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Curriculum Vitae of Keenan Eriss</h1>
+
+        <p>My name is Keenan Eriss, I grew up in Eldorado Park where I completed 
+            my senior academic career at Eldorado Park Senior Secondary School.
+            I was afforded the opportunity for an apprenticeship as a Motor Mechanic.
+            
+            I Qualified as a Motor Mechanic and obtained a red seal 
+            certificate. During my time as a Motor Mechanic I spent 7 years working on
+            the bench as a Technician and 2 years as a Workshop Foreman. I'm currently 
+            pursuing a certificate in Python programming through
+            the institution of Hyperiondev. 
+            
+            Due to the monotony of my previous profession I have developed a passion for 
+            software development. The idea of becoming a software developer was motivated
+            by the flexibility of the work-life balance and the substantial financial 
+            rewards. Learning about DevOps, testing, or agile methodologies is what I would 
+            most likely aspire to do.
+        </p>
+
+        <!-- Personal Information -->
+        <ul>
+            <li><strong>Name:</strong> Keenan Eriss</li>
+            <li><strong>Address:</strong> Unit 44 Santa Fe, 25 Suikerbekkie Bromhof, Randburg</li>
+            <li><strong>Contact number:</strong> 0733675744 / 0716169967</li>
+            <li><strong>LinkedIn:</strong> 
+                <a href="https://www.linkedin.com/in/keenan-eriss-94a40b231">www.linkedin.com/in/keenan-eriss-94a40b231</a>
+            </li>
+        </ul>
+
+        <!-- Image -->
+        <img src="https://www.dropbox.com/scl/fi/w9ms9toh67qozldtmyikw/Keenan.jpg?rlkey=rll70mvzj8tfru7x6rdblk5ea&st=j8dp1m4f&dl=1"
+             alt="Keenan Eriss">
+
+        <!-- Technical Skills Section -->
+        <h2>Technical Skills</h2>
+
+        <h3>Programming Languages:</h3>
+        <ul>
+            <li>Python: Proficient in writing scripts, handling database operations, 
+                and developing applications.</li>
+            <li>SQL: Strong knowledge of database creation, querying, updating, 
+                and managing data.</li>
+        </ul>
+
+        <h3>Web Development:</h3>
+        <ul>
+            <li>Front-end: HTML/CSS for designing and structuring web pages.</li>
+            <li>Back-end: Server-side scripting and database management with SQL
+                and SQLite.</li>
+        </ul>
+
+        <h3>Database Management:</h3>
+        <ul>
+            <li>SQL/SQLite: Creating, managing, querying databases.</li>
+            <li>Transaction Handling: Managing database transactions to ensure data 
+                integrity.</li>
+        </ul>
+
+        <h3>Networking:</h3>
+        <ul>
+            <li>TCP/IP: Understanding of networking protocols and web technologies.</li>
+            <li>HTTP Request/Response cycle: Knowledge of how data is transmitted 
+                over the web.</li>
+        </ul>
+
+        <!-- Competencies Section -->
+        <h2>Competencies</h2>
+
+        <h3>Analytical Skills:</h3>
+        <ul>
+            <li>Problem Solving: Ability to identify issues and develop effective solutions.</li>
+            <li>Data Analysis: Proficiency in analyzing and interpreting data to make 
+                informed decisions.</li>
+        </ul>
+
+        <h3>Project Management:</h3>
+        <ul>
+            <li>Time Management: Efficiently managing time to meet deadlines.</li>
+            <li>Organization: Keeping tasks and projects well-organized and structured.</li>
+        </ul>
+
+        <h3>Communication:</h3>
+        <ul>
+            <li>Written Communication: Writing clear and concise documentation and code 
+                comments.</li>
+            <li>Verbal Communication: Effectively conveying ideas and collaborating with 
+                team members.</li>
+        </ul>
+
+        <h3>Attention to Detail:</h3>
+        <ul>
+            <li>Code Accuracy: Ensuring code is error-free and adheres to best practices.</li>
+            <li>Data Integrity: Maintaining accurate and reliable data in databases.</li>
+        </ul>
+
+        <h3>Adaptability:</h3>
+        <ul>
+            <li>Learning New Technologies: Quickly adapting to new tools and technologies.</li>
+            <li>Flexible Problem Solving: Adjusting approaches to problem-solving as needed.</li>
+        </ul>
+
+        <!-- Projects and Experience Section -->
+        <h2>Projects and Experience</h2>
+        <ul>
+            <li>Student Management Systems: Developed a system to manage student records 
+                using Python and SQLite.</li>
+            <li>Inventory Management: Created a database to track inventory and sales data.</li>
+        </ul>
+
+        <h3>Web Development Projects:</h3>
+        <ul>
+            <li>Personal Website: Designed and developed a personal website to showcase 
+                skills and projects.</li>
+        </ul>
+
+        <!-- Education Section -->
+        <h2>Education</h2>
+        <ul>
+            <li>Matric: Grade 12</li>
+            <li>Certificate: Motor Mechanic</li>
+            <li>Certificate: Python (Once completed)</li>
+        </ul>
+
+        <!-- Work Experience Section -->
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Workshop Technician (7 Years)</li>
+            <li>Workshop Foreman (2 Years)</li>
+            <li>Python Programmer (6 Months, Under Hyperiondev "once completed")</li>
+        </ul>
+
+        <!-- Search Box -->
+        <h2>Search the CV</h2>
+        <form method="GET" action="search_results.html">
+            <label for="search">Enter keyword:</label>
+            <input type="text" id="search" name="search">
+            <input type="submit" value="Search">
+        </form>
+
+        <!-- Contact Form -->
+        <h2>Contact Me</h2>
+        <form method="POST" action="contact.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
